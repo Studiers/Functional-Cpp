@@ -14,7 +14,7 @@ int main(void) {
 	std::string title = std::get<1>(tuple), name = std::get<2>(tuple);
 	// or
 	std::tie(index, title, name) = tuple;
-	// I think lower thing is better :)
+	// I think lower thing is better :) 
 	
 	return 0;
 }
