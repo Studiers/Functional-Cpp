@@ -17,6 +17,7 @@ int mul(int a, int b) {
 int sub(int a, int b) {
 	return a - b;
 }
+
 int main(void) {
 	std::function<int(int, int)> functions[] = { add, sub, mul, div };
 
